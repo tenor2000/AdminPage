@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #010101;
+  --secondary-color: #f5f5f5;
+  --tertiary-color: #3f14ad;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: var(--secondary-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.brand-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.color-bar {
+  background-color: var(--tertiary-color);
+}
+
+.row {
+  padding: 1rem;
+}
+
+.custom-card-spacing {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.imperial-propaganda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-join {
+  position: absolute;
+  opacity: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
